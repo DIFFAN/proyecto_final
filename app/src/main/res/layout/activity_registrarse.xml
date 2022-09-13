@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Registrarse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/img_1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="301dp"
+            android:layout_height="615dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/img_1"
+                    app:cardBackgroundColor="#00FFFFFF"
+                    app:cardCornerRadius="50dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="REGISTRAR USUARIO"
+                            android:textAlignment="center"
+                            android:textColor="#0A176A"
+                            android:textSize="34sp"
+                            android:textStyle="bold" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:backgroundTint="#05FFFFFF"
+                            app:cardBackgroundColor="#00FFFFFF"
+                            app:cardCornerRadius="50px">
+
+                            <TableLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center">
+
+                                <TableRow
+                                    android:layout_width="402dp"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="259dp"
+                                        android:layout_height="wrap_content"
+                                        android:animateLayoutChanges="true"
+                                        app:cardBackgroundColor="#00FFFFFF"
+                                        app:cardCornerRadius="60px">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <androidx.cardview.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                app:cardBackgroundColor="#2A77B3"
+                                                app:cardCornerRadius="25px">
+
+                                                <EditText
+                                                    android:id="@+id/name"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:backgroundTint="#0B0B0B"
+                                                    android:ems="10"
+                                                    android:hint="Ingrese sus nombres"
+                                                    android:inputType="textPersonName"
+                                                    android:paddingLeft="25px"
+                                                    android:paddingRight="25px"
+                                                    android:textColor="#0D1B73"
+                                                    android:textColorHint="#70CFDC" />
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="8dp" />
+
+                                            <androidx.cardview.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                app:cardBackgroundColor="#2A77B3"
+                                                app:cardCornerRadius="25px">
+
+                                                <EditText
+                                                    android:id="@+id/lastname"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:backgroundTint="#0B0B0B"
+                                                    android:ems="10"
+                                                    android:hint="Ingrese sus apellidos"
+                                                    android:inputType="textPersonName"
+                                                    android:paddingLeft="25px"
+                                                    android:paddingRight="25px"
+                                                    android:textColor="#0D1B73"
+                                                    android:textColorHint="#70CFDC" />
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="8dp" />
+
+                                            <androidx.cardview.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                app:cardBackgroundColor="#2A77B3"
+                                                app:cardCornerRadius="25px">
+
+                                                <EditText
+                                                    android:id="@+id/date"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:backgroundTint="#0B0B0B"
+                                                    android:ems="10"
+                                                    android:hint="Ingrese fecha de nacimiento"
+                                                    android:inputType="date"
+                                                    android:paddingLeft="25px"
+                                                    android:textColor="#0D1B73"
+                                                    android:textColorHint="#70CFDC" />
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="8dp" />
+
+                                            <androidx.cardview.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                app:cardBackgroundColor="#2A77B3"
+                                                app:cardCornerRadius="25px">
+
+                                                <EditText
+                                                    android:id="@+id/correo1"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:backgroundTint="#0B0B0B"
+                                                    android:ems="10"
+                                                    android:hint="Ingrese correo"
+                                                    android:inputType="textEmailAddress"
+                                                    android:paddingLeft="25px"
+                                                    android:textColor="#0D1B73"
+                                                    android:textColorHint="#70CFDC" />
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="8dp" />
+
+                                            <androidx.cardview.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                app:cardBackgroundColor="#2A77B3"
+                                                app:cardCornerRadius="25px">
+
+                                                <EditText
+                                                    android:id="@+id/clave1"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:backgroundTint="#0B0B0B"
+                                                    android:ems="10"
+                                                    android:hint="Ingrese contraseña"
+                                                    android:inputType="textPassword"
+                                                    android:paddingLeft="25px"
+                                                    android:paddingRight="25px"
+                                                    android:textColor="#0D1B73"
+                                                    android:textColorHint="#70CFDC" />
+                                            </androidx.cardview.widget.CardView>
+
+                                            <Space
+                                                android:layout_width="match_parent"
+                                                android:layout_height="8dp" />
+
+                                            <androidx.cardview.widget.CardView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                app:cardBackgroundColor="#2A77B3"
+                                                app:cardCornerRadius="25px">
+
+                                                <EditText
+                                                    android:id="@+id/clave2"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:backgroundTint="#0B0B0B"
+                                                    android:ems="10"
+                                                    android:hint="Confirmar contraseña"
+                                                    android:inputType="textPassword"
+                                                    android:paddingLeft="25px"
+                                                    android:textColor="#0D1B73"
+                                                    android:textColorHint="#70CFDC" />
+                                            </androidx.cardview.widget.CardView>
+
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+                                </TableRow>
+
+                            </TableLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#00FFFFFF"
+                            app:cardCornerRadius="50px">
+
+                            <TableLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center">
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        app:cardBackgroundColor="#00FFFFFF">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <Button
+                                                android:id="@+id/registro"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="60dp"
+                                                android:backgroundTint="#0B1860"
+                                                android:onClick="registrarUsuario"
+                                                android:text="REGISTRAR"
+                                                android:textColor="#FFFFFF"
+                                                android:textStyle="bold"
+                                                app:cornerRadius="50px" />
+
+                                            <Button
+                                                android:id="@+id/atras"
+                                                android:layout_width="210dp"
+                                                android:layout_height="60dp"
+                                                android:backgroundTint="#0B1860"
+                                                android:text="ATRAS"
+                                                android:textColor="#FFFFFF"
+                                                android:textStyle="bold"
+                                                app:cornerRadius="50px" />
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+
+                                </TableRow>
+
+                            </TableLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

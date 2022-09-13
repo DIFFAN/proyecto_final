@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".basedatos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/img_1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="150px">
+
+            <LinearLayout
+                android:layout_width="339dp"
+                android:layout_height="492dp"
+                android:background="@mipmap/img_3"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:gravity="center">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="50px"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DATOS GENERALES:"
+                            android:textAlignment="center"
+                            android:textColor="#04187E"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#00FFFFFF"
+                            app:cardCornerRadius="75px">
+
+                            <LinearLayout
+                                android:layout_width="271dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:paddingTop="20px"
+                                    app:cardBackgroundColor="#2A77B3"
+                                    app:cardCornerRadius="25px">
+
+                                    <EditText
+                                        android:id="@+id/nm"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:backgroundTint="#000000"
+                                        android:ems="10"
+                                        android:hint="INGRESAR NOMBRES"
+                                        android:inputType="textPersonName"
+                                        android:paddingLeft="20px"
+                                        android:paddingTop="20px"
+                                        android:paddingRight="20px"
+                                        android:textColor="#010C4C"
+                                        android:textColorHint="#B3AFAF" />
+                                </androidx.cardview.widget.CardView>
+
+                                <Space
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20px" />
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:cardBackgroundColor="#2A77B3"
+                                    app:cardCornerRadius="25px">
+
+                                    <EditText
+                                        android:id="@+id/ap"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:backgroundTint="#000000"
+                                        android:ems="10"
+                                        android:hint="INGRESAR APELLIDOS"
+                                        android:inputType="textPersonName"
+                                        android:paddingLeft="20px"
+                                        android:paddingRight="20px"
+                                        android:textColor="#010C4C"
+                                        android:textColorHint="#B3AFAF" />
+                                </androidx.cardview.widget.CardView>
+
+                                <Space
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20px" />
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:cardBackgroundColor="#2A77B3"
+                                    app:cardCornerRadius="25px">
+
+                                    <EditText
+                                        android:id="@+id/em"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:backgroundTint="#000000"
+                                        android:ems="10"
+                                        android:hint="INGRESAR MAIL"
+                                        android:inputType="textEmailAddress"
+                                        android:paddingLeft="20px"
+                                        android:paddingRight="20px"
+                                        android:textColor="#010C4C"
+                                        android:textColorHint="#B3AFAF" />
+                                </androidx.cardview.widget.CardView>
+
+                                <Space
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20px" />
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    app:cardBackgroundColor="#2A77B3"
+                                    app:cardCornerRadius="25px">
+
+                                    <EditText
+                                        android:id="@+id/tl"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:backgroundTint="#000000"
+                                        android:ems="10"
+                                        android:hint="NUMERO DE TELEFONO"
+                                        android:inputType="phone"
+                                        android:paddingLeft="20px"
+                                        android:paddingRight="20px"
+                                        android:textColor="#010C4C"
+                                        android:textColorHint="#B3AFAF" />
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="100px" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardBackgroundColor="#00FFFFFF"
+                            app:cardCornerRadius="50px">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <Button
+                                    android:id="@+id/guardar"
+                                    android:layout_width="271dp"
+                                    android:layout_height="57dp"
+                                    android:backgroundTint="#0B1860"
+                                    android:text="Guardar"
+                                    android:textColor="#FFFFFF"
+                                    app:cornerRadius="55px" />
+
+                                <Button
+                                    android:id="@+id/me"
+                                    android:layout_width="273dp"
+                                    android:layout_height="56dp"
+                                    android:backgroundTint="#0B1860"
+                                    android:text="ATRAS"
+                                    android:textColor="#FFFFFF"
+                                    app:cornerRadius="55px" />
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
